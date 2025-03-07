@@ -28,14 +28,14 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Getting Started",
-					link: "/introduction",
+					link: "introduction",
 				  },
 				{
 					label: "Installation",
 					items: [
 					  {
 						label: "Codespaces",
-						link: "/installation/codespaces",
+						link: "installation/codespaces",
 					  },
 					],
 				  },

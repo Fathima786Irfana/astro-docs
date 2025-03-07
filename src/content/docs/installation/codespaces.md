@@ -9,29 +9,29 @@ Here are the steps:
 
 1. Visit [this](https://github.com/ankush/frappe_codespace) repository
 2. Click on the `Code` button, and then on `Create codespace on master`:
-    ![Create Codespace Screenshot](/create_codespace.png)
+    ![Create Codespace Screenshot](/astro-docs/create_codespace.png)
 
 3. Wait for the codespace to boot up (behind the scenes containers are being bought up!):
 
-    ![Codespace Booting](/codespace_booting.png)
+    ![Codespace Booting](/astro-docs/codespace_booting.png)
 
 4. Once the codespace is created, it will open up a code editor (VS Code) right in your browser, with terminal and everything! Wait for a few seconds for the initialization script to complete:
 
-    ![Codespace Init Script](/codespace_init_script.png)
+    ![Codespace Init Script](/astro-docs/codespace_init_script.png)
 
 5. After the script is done running, you can check your installation by running `bench --version` and then start the bench by running `bench start`:
 
-    ![Codespace Terminal Screenshot](/codespace_bench_start.png)
+    ![Codespace Terminal Screenshot](/astro-docs/codespace_bench_start.png)
 
     This will start the bench.
 
 6. Visit the ports tab and click on the browser icon next to port `8000` (the web server runs on this port):
 
-    ![Codespace Ports Tab](/codespace_ports.png)
+    ![Codespace Ports Tab](/astro-docs/codespace_ports.png)
 
 Voila! This will open up the site in a new tab:
 
-![Frappe Site Running through Codespace](/codespace_site_up.png)
+![Frappe Site Running through Codespace](/astro-docs/codespace_site_up.png)
 
 ### Credentials
 
@@ -42,7 +42,7 @@ Voila! This will open up the site in a new tab:
 
 You can also open your codespace in your local VS Code by opening up command palette (`Cmd + Shift + P`) and running:
 
-![Open Codespace in VSCode Desktop command](/codespace_vscode_desktop.png)
+![Open Codespace in VSCode Desktop command](/astro-docs/codespace_vscode_desktop.png)
 
 ## Creating and Using a new site [Codespaces]
 
